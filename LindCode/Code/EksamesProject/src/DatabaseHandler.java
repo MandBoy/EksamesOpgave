@@ -32,9 +32,15 @@ public class DatabaseHandler{
 
         }
     }
-    public static void readList(){}
-    public static void delete(){}
-    public static void update(){}
+    public void readList(Person person, Item item){
+        SELECT Inputhandler.intChoice() FROM Inputhandler.strChoice();
+    }
+    public static void delete(Person person){
+        SELECT * FROM Inputhandler.strChoice() WHERE Inputhandler.intChoice()
+
+
+    }
+    public static void update(Person person){}
     public static boolean loginCheck(int cardId){
         //Need to be able to read from database here.
         //if(database.contains(cardId)){
