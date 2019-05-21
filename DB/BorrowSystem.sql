@@ -9,11 +9,11 @@ cpr INT NOT NULL,
 sms INT NOT NULL,
 email varchar(45) NOT NULL,
 niveau INT NOT NULL,
-rykker DATETIME
+rykker TIMESTAMP
 );
 
 CREATE TABLE item(
-id INT NOT NULL PRIMARY KEY,
+id INT NOT NULL PRIMARY KEY auto_increment,
 navn varchar(45) NOT NULL,
 pris int NOT NULL,
 opløsning VARCHAR(45) NOT NULL,
@@ -23,10 +23,10 @@ Model VARCHAR(45) NOT NULL
 );
 
 CREATE TABLE borrowList(
-id INT NOT NULL, 
+id INT NOT NULL PRIMARY KEY auto_increment, 
 bruger VARCHAR(45),
 item VARCHAR(45),
-time TIMESTAMP,
+tidspunkt TIMESTAMP,
 Afleverer DATETIME
  );
  
