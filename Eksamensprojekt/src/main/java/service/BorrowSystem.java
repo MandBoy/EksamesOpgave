@@ -14,21 +14,19 @@ public class BorrowSystem{
     public BorrowSystem(){
         System.out.println("--- Please scan your data slip ---");
         while(Values.running){
-
-            User user = login();
             //Read from persons level with databasehandler into switch below.
+            User user = login();
             switch(user.level()){
-
                 case 1:
-                    borrow();
+                    borrow(user);
                 case 2:
                     optionMenu();
                     switch(Inputhandler.intChoice()) {
                         case 1:
-                            borrow();
+                            borrow(user);
                             break;
                         case 2:
-                            manage();
+                            manage(user);
                             break;
                         case 9:
                             System.out.println("--- Shutting down ---");
@@ -41,19 +39,20 @@ public class BorrowSystem{
     public User login(){
         String username = Inputhandler.strChoice();
         String password = Inputhandler.strChoice();
+        //Read from database.
         if(userName && password in database){
-            System.out.println("Welcome:" + User.name);
+            System.out.println("Welcome: " + User.name);
             return user;
         }
         else{
             System.out.println("Error: Login");
         }
     }
-    public void borrow(){
-        Borrow borrow = new Borrow();
+    public void borrow(User user){
+        Borrow borrow = new Borrow(user);
     }
-    public void manage(){
-        Manage manage = new Manage();
+    public void manage(User user){
+        Manage manage = new Manage(user);
     }
     public String optionMenu() {
         String tekst =
