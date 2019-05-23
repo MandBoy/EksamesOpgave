@@ -10,8 +10,8 @@ public class CRUD{
        String user = "root";
        String password = "basedNredpilled";
        try{
-           java.sql.Connection conn = DriverManager.getConnection(url, user, password);
-           Statement stmt = conn.createStatement();
+           conn = DriverManager.getConnection(url, user, password);
+           stmt = conn.createStatement();
        } catch (SQLException e) {
            e.printStackTrace();
        }
