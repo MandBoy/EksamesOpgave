@@ -6,7 +6,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Borrow {
+public class Borrow{
     private Time time = new Time();
     private Time aflever = time; //Somehow add 10 days to the time.
     private LinkedList<Item> items = new LinkedList<Item>();

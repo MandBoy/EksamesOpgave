@@ -7,7 +7,6 @@ public class CRUD{
     public CRUD(){
     }
         public static void Read(){
-
             String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
             String user = "root";
             String password = "basedNredpilled";

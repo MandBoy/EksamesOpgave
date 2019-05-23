@@ -9,16 +9,16 @@ public class Manage {
             crudMenu();
             switch(Inputhandler.intChoice()){
                 case 1:
-                    DatabaseHandler.create();
+                    CRUD.create();
                     break;
                 case 2:
-                    DatabaseHandler.readList();
+                    CRUD.readList();
                     break;
                 case 3:
-                    DatabaseHandler.delete();
+                    CRUD.delete();
                     break;
                 case 4:
-                    DatabaseHandler.update();
+                    CRUD.update();
                     break;
                 case 9:
             }

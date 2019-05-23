@@ -13,6 +13,4 @@ public class Item {
         this.itemName = Inputhandler.strChoice();
         this.itemPrice = Inputhandler.intChoice();
     }
-
-
 }

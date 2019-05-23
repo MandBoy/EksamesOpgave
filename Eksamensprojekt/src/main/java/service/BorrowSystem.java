@@ -14,9 +14,11 @@ public class BorrowSystem{
     public BorrowSystem(){
         System.out.println("--- Please scan your data slip ---");
         while(Values.running){
+
             User user = login();
             //Read from persons level with databasehandler into switch below.
             switch(user.level()){
+
                 case 1:
                     borrow();
                 case 2:
