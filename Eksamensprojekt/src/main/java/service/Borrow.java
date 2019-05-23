@@ -14,7 +14,6 @@ public class Borrow{
     public Borrow(User user){
         while(Values.running){
             Inputhandler.itemScan();
-            if(Inputhandler.cardScan() != null){}
         }
     }
 }
