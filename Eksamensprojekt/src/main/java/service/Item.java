@@ -9,8 +9,10 @@ public class Item {
     private int itemPrice;
 
     public Item(){
-
-
-
+        this.itemId = itemId;
+        this.itemName = Inputhandler.strChoice();
+        this.itemPrice = Inputhandler.intChoice();
     }
+
+
 }

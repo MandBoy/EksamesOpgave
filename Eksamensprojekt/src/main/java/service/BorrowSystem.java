@@ -8,16 +8,15 @@
 * Borrow() is where we create our borrow orders from a persons Id.
 * Manage() is a reroad to several user friendly Databasehandler functions.
  */
-
 package service;
 
-public class BorrowSystem {
+public class BorrowSystem{
     public BorrowSystem(){
         System.out.println("--- Please scan your data slip ---");
         while(Values.running){
-            login();
-            //Read from persons level with databasehandler into switch.
-            switch(Inputhandler.intChoice()){
+            User user = login();
+            //Read from persons level with databasehandler into switch below.
+            switch(user.level()){
                 case 1:
                     borrow();
                 case 2:
@@ -37,19 +36,19 @@ public class BorrowSystem {
             }
         }
     }
-    public int login(){
-        int cardId = Inputhandler.scan();
-        if(DatabaseHandler.loginCheck(cardId) == true){
-            return 1;
+    public User login(){
+        String username = Inputhandler.strChoice();
+        String password = Inputhandler.strChoice();
+        if(userName && password in database){
+            System.out.println("Welcome:" + User.name);
+            return user;
         }
         else{
-            return 0;
+            System.out.println("Error: Login");
         }
-
     }
-
     public void borrow(){
-        BorrowList borrow = new BorrowList();
+        Borrow borrow = new Borrow();
     }
     public void manage(){
         Manage manage = new Manage();

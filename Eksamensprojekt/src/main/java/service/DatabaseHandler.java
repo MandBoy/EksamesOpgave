@@ -1,40 +1,25 @@
 /*
 *Made by Andreas Lind.
-* Used to do things in the database.
+* Used to CRUD in or database.
  */
 
 public class DatabaseHandler{
-    public DatabaseHandler(){
-        while(Values.running){
-            crudMenu();
-            switch(Inputhandler.intChoice()){
-                case 1:
-                    create();
-                    break;
-                case 2:
-                    readList();
-                    break;
-                case 3:
-                    delete();
-                    break;
-                case 4:
-                    update();
-                    break;
-                case 9:
-            }
-        }
-    }
+    //Preparedstatements...
     //Create a list of database tables. LinkedList<Tables> tables = new LinkedList<Tables>();
     public static void create(){
         System.out.println("Which table would you like to create something in?");
         //Print available tables. System.out.println(Arrays.toString(tables));
-        switch(Inputhandler.intChoice()){
-
-        }
+        SELECT Inputhandeler.strChoice();
     }
-    public static void readList(){}
-    public static void delete(){}
-    public static void update(){}
+    public static void readList(){
+        SELECT Inputhandler.strChoice(); FROM Inputhandler.
+    }
+    public static void delete(){
+        SELECT Inputhandler.strChoice(); FROM Inputhandler.
+    }
+    public static void update(){
+        SELECT Inputhandler.strChoice();
+    }
     public static boolean loginCheck(int cardId){
         //Need to be able to read from database here.
         //if(database.contains(cardId)){
@@ -43,16 +28,6 @@ public class DatabaseHandler{
         //else{
             //return false;
         //}
-    }
-    public String crudMenu(){
-        String tekst =
-                "--- CRUD Menu ---\n"
-                        +"1. Create.\n"
-                        +"2. Read.\n"
-                        +"3. Update.\n"
-                        +"4. Delete.\n"
-                        +"9. Exit.\n";
-        return tekst;
     }
 }
 

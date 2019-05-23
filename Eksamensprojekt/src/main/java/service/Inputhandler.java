@@ -25,7 +25,8 @@ public class Inputhandler{
         return scanner.nextDouble();
     }
     //Needs physical scanner.
-    public static int scan(){
+    //We needed to cut this part since tech lounge didn't have an extra scanner we could borrow.
+    public static int itemScan(){
         while(!scanner.hasNextInt()){
             scanner.next();
         }
