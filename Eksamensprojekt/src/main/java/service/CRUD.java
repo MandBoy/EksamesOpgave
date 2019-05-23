@@ -2,17 +2,6 @@ package service;
 import java.sql.*;
 
 public class CRUD{
-    public CRUD(){
-        String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
-        String user = "root";
-        String password = "basedNredpilled";
-        try{
-            java.sql.Connection conn = DriverManager.getConnection(url, user, password);
-            Statement stmt = conn.createStatement();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
     public static void read(java.sql.Connection conn, Statement stmt) {
         try {
             String readList = "select * from bruger";
