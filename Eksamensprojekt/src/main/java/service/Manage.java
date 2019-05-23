@@ -10,34 +10,21 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Manage {
-    private java.sql.Connection conn;
-    private Statement stmt;
-
     public Manage(){
-        String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
-        String user = "root";
-        String password = "basedNredpilled";
-        try{
-            java.sql.Connection conn = DriverManager.getConnection(url, user, password);
-            Statement stmt = conn.createStatement();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
         while(Values.running){
             crudMenu();
             switch(Inputhandler.intChoice()){
                 case 1:
-                    CRUD.create(conn, stmt);
+                    CRUD.create();
                     break;
                 case 2:
-                    CRUD.read(conn, stmt);
+                    CRUD.read();
                     break;
                 case 3:
-                    CRUD.delete(conn, stmt);
+                    CRUD.delete();
                     break;
                 case 4:
-                    CRUD.update(conn, stmt);
+                    CRUD.update();
                     break;
                 case 9:
             }
@@ -53,5 +40,4 @@ public class Manage {
                         +"9. Exit.\n";
         return tekst;
     }
-
 }
