@@ -2,6 +2,7 @@
  *Made by Andreas Lind.
  * Used to give admin level users access to create new things in database.
  */
+package service;
 
 public class Manage {
     public Manage(){
@@ -12,7 +13,7 @@ public class Manage {
                     CRUD.create();
                     break;
                 case 2:
-                    CRUD.readList();
+                    CRUD.read();
                     break;
                 case 3:
                     CRUD.delete();

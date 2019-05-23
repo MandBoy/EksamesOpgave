@@ -2,7 +2,7 @@
 *Made by Andreas Lind.
 * Holds values which is used almost everywhere.
  */
-
+package service;
 public class Values {
     public static boolean running;
 }

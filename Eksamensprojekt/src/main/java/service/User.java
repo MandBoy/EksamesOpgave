@@ -2,6 +2,7 @@
 * Made by Andreas Lind.
 * Creates a user for the databasehandler to put in the database.
  */
+package service;
 
 public class User {
     private int Id;

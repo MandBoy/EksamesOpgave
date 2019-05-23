@@ -2,8 +2,7 @@
  *Made by Andreas Lind.
  * Used to take input saving us from creating a scanner in every class.
  */
-
-
+package service;
 import java.util.*;
 
 public class Inputhandler{
