@@ -10,6 +10,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Manage {
+    private java.sql.Connection conn;
+    private Statement stmt;
+
     public Manage(){
         String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
         String user = "root";
@@ -28,13 +31,13 @@ public class Manage {
                     CRUD.create(conn, stmt);
                     break;
                 case 2:
-                    CRUD.read();
+                    CRUD.read(conn, stmt);
                     break;
                 case 3:
-                    CRUD.delete();
+                    CRUD.delete(conn, stmt);
                     break;
                 case 4:
-                    CRUD.update();
+                    CRUD.update(conn, stmt);
                     break;
                 case 9:
             }
