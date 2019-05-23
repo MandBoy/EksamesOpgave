@@ -10,7 +10,7 @@ public class Manage {
             crudMenu();
             switch(Inputhandler.intChoice()){
                 case 1:
-                    CRUD.create();
+                    CRUD.create(conn, stmt);
                     break;
                 case 2:
                     CRUD.read();

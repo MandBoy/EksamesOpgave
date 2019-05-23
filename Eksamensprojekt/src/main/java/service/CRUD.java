@@ -6,7 +6,7 @@ public class CRUD{
         String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
         String user = "root";
         String password = "basedNredpilled";
-        try {
+        try{
             java.sql.Connection conn = DriverManager.getConnection(url, user, password);
             Statement stmt = conn.createStatement();
         } catch (SQLException e) {
