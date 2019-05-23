@@ -4,5 +4,5 @@
  */
 package service;
 public class Values {
-    public static boolean running;
+    public static boolean running = true;
 }
