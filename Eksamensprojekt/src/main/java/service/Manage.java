@@ -2,10 +2,25 @@
  *Made by Andreas Lind.
  * Used to give admin level users access to create new things in database.
  */
+
 package service;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Manage {
     public Manage(){
+        String url = "jdbc:mysql://localhost:3306/BorrowDatabase?serverTimezone=UTC&useSSL=false&allowMultiQueries=true";
+        String user = "root";
+        String password = "basedNredpilled";
+        try{
+            java.sql.Connection conn = DriverManager.getConnection(url, user, password);
+            Statement stmt = conn.createStatement();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
         while(Values.running){
             crudMenu();
             switch(Inputhandler.intChoice()){
