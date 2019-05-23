@@ -20,7 +20,7 @@ public class DatabaseHandler{
     public static void update(){
         SELECT Inputhandler.strChoice();
     }
-    public static boolean loginCheck(int cardId){
+    public static boolean loginCheck(user){
         //Need to be able to read from database here.
         //if(database.contains(cardId)){
             return true;
