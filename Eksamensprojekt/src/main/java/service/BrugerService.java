@@ -12,18 +12,13 @@ public class BrugerService {
 
     @Autowired
     BrugerRepo brugerRepo;
-
     public List<Bruger> fetchAllBruger(){
-
         return brugerRepo.fetchAllBruger();
     }
-
     public void deleteById(int brugerId){
         brugerRepo.deleteById(brugerId);
     }
-
     public void createBruger(Bruger bruger) {
-
         brugerRepo.createBruger(bruger);
     }
 

@@ -1,11 +1,14 @@
-package model;
+/*
+Lavet af Andreas Lind
+Ændret af Leopold.
+ */
 
+package model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
 public class Item {
-
     @Id
     private int itemID;
     private String navn;

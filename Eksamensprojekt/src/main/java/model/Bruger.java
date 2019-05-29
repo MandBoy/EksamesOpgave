@@ -1,3 +1,8 @@
+/*
+Lavet af Andreas Lind.
+Ændret af Leopold.
+ */
+
 package model;
 
 import javax.persistence.Entity;
@@ -6,7 +11,6 @@ import java.security.Timestamp;
 
 @Entity
 public class Bruger{
-
     @Id
     private int brugerId;
     private String navn;
@@ -16,6 +20,7 @@ public class Bruger{
     private int niveau;
     private Timestamp rykker;
 
+    public Bruger(){}
     public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, Timestamp rykker) {
         this.brugerId = brugerId;
         this.navn = navn;

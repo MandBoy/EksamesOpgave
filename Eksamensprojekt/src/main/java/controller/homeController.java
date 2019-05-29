@@ -1,3 +1,7 @@
+/*
+Lavet a Leopold
+ */
+
 package controller;
 
 import model.Bruger;
