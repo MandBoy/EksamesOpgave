@@ -16,7 +16,6 @@ import service.BrugerService;
 
 @Controller
 public class homeController {
-
     @Autowired
     BrugerService brugerService;
 
@@ -47,5 +46,4 @@ public class homeController {
         //sikr mod refresh fejl og sletter igen
         return "redirect:/brugerdata";
     }
-
 }

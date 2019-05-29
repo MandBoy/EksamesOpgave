@@ -23,24 +23,20 @@ public class ItemRepo {
         RowMapper<Item> rowMapper = new BeanPropertyRowMapper<>(Item.class);
         return template.query(sql, rowMapper);
     }
-
     public void readById(int itemId){
         String sql = "SELECT * FROM bruger WHERE brugerId=?";
         RowMapper<Item> rowMapper = new BeanPropertyRowMapper<>(Item.class);
         template.queryForObject(sql, rowMapper, itemId);
     }
-
     public void createItem(Item item){
         String sql = "insert into Bruger (navn, pris, opløsning, vægt, udgivelse, model) values(?, ?, ?, ?, ?, ? )";
         RowMapper<Item> rowMapper = new BeanPropertyRowMapper<>(Item.class);
         template.update(sql, item.getNavn(), item.getPris(),item.getOpløsning(), item.getVægt(), item.getUdgivelse(), item.getModel() );
     }
-
     public void updateItem(Item item){
         String sql ="Update Item SET navn=?, pris=?, opløsning=?, vægt=?, udgivelse=?, model=? WHERE itemId=? ";
         template.update(sql, item.getNavn(), item.getPris(),item.getOpløsning(), item.getVægt(), item.getUdgivelse(), item.getModel());
     }
-
     public void deleteById(int itemId){
         String sql = " Delete from Item WHERE id=?";
         template.update(sql, itemId);

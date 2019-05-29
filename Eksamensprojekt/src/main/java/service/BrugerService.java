@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class BrugerService {
-
     @Autowired
     BrugerRepo brugerRepo;
     public List<Bruger> fetchAllBruger(){
@@ -21,11 +20,9 @@ public class BrugerService {
     public void createBruger(Bruger bruger) {
         brugerRepo.createBruger(bruger);
     }
-
     public void readById(int brugerId){
         brugerRepo.readById(brugerId);
     }
-
     public void updateBruger(Bruger bruger){
         brugerRepo.updateBruger(bruger);
     }
