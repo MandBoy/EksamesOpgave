@@ -1,3 +1,4 @@
+
 package com.example.eksamensproject.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -11,3 +12,4 @@ public class DemoApplication {
     }
 
 }
+

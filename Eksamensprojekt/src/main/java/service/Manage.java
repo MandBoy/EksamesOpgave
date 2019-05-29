@@ -1,13 +1,13 @@
+
+
 /*
  *Made by Andreas Lind.
  * Used to give admin level users access to create new things in database.
  */
+/*
 package service;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
 
-public class Manage {
+public class Manage{
     public Manage(){
         while(Values.running){
             crudMenu();
@@ -39,3 +39,5 @@ public class Manage {
         return tekst;
     }
 }
+
+*/

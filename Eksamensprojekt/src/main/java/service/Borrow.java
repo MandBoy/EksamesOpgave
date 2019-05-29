@@ -3,9 +3,7 @@
  * Used to create borrow orders in our database.
  */
 package service;
-import java.io.*;
-import java.util.*;
-
+/*
 public class Borrow{
     private Time time = new Time();
     private Time aflever = time; //Somehow add 10 days to the time.
@@ -17,3 +15,4 @@ public class Borrow{
         }
     }
 }
+*/

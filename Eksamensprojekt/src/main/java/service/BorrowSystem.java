@@ -8,6 +8,7 @@
 * Borrow() is where we create our borrow orders from a persons Id.
 * Manage() is a reroad to several user friendly Databasehandler functions.
  */
+/*
 package service;
 
 public class BorrowSystem{
@@ -63,3 +64,4 @@ public class BorrowSystem{
         return tekst;
     }
 }
+*/
