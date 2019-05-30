@@ -15,6 +15,7 @@ import java.util.List;
 
 @Repository
 public class ItemRepo {
+
     @Autowired
     JdbcTemplate template;
 
@@ -25,7 +26,7 @@ public class ItemRepo {
     }
 
     public void readById(int itemId){
-        String sql = "SELECT * FROM bruger WHERE brugerId=?";
+        String sql = "SELECT * FROM bruger WHERE itemId=?";
         RowMapper<Item> rowMapper = new BeanPropertyRowMapper<>(Item.class);
         template.queryForObject(sql, rowMapper, itemId);
     }

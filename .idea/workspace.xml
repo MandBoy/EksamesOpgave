@@ -2,172 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8468e9-8894-488a-bcd5-a571679b0e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EksamesOpgave.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EksamesOpgave.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BorrowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/GrayListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_eclipse_persistence_commonj_sdo_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_eclipse_persistence_eclipselink_2_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_eclipse_persistence_jakarta_persistence_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/DB/BorrowSystem.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/DB/Lånesystem2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/Eksamensprojekt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/com/example/eksamensproject/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/controller/homeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/model/Bruger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/model/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/repository/BrugerRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/repository/ItemRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Borrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/BorrowSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/BrugerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/CRUD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Dataslip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/GrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Inputhandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/ItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Manage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Starter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Values.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/resources/brugerdata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/main/resources/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/production/EksamesOpgave/META-INF/EksamesOpgave.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/src/test/java/com/example/eksamensproject/demo/eksamensprojectDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/BorrowSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/DatabaseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/Functions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/GrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/META-INF/Eksamensprojekt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/Manage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/Values.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/brugerdata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/com/example/eksamensproject/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/controller/homeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/model/Bruger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/model/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/repository/BrugerRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/repository/ItemRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/BrugerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/GrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/Inputhandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/classes/service/Values.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eksamensprojekt/target/test-classes/com/example/eksamensproject/demo/eksamensprojectDemoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/brugerdata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Dataslip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/EksamesOpgave.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/BorrowSystem.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Lånesystem2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Bruger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Bruger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Bruger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Bruger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/BrugerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/BrugerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/ItemRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/ItemRepo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Eksamensprojekt/src/" />
     <ignored path="$PROJECT_DIR$/Eksamensprojekt/target/" />
@@ -187,24 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EksamesOpgave.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/EksamesOpgave/demo/eksamensprojectDemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="98">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,61 +48,98 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.iml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1151" />
+            <state relative-caret-position="90">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvnw">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowListService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1143" />
+            <state relative-caret-position="435">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="11" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1901" />
+            <state relative-caret-position="75">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="15" selection-start-column="15" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/BorrowList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/Validation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
+            <state relative-caret-position="120">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,8 +150,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -317,8 +189,17 @@
         <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/java/com/example/eksamensproject/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/eksamensproject/demo/eksamensprojectDemoApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Bruger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/BorrowList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/GrayListService.java" />
       </list>
     </option>
   </component>
@@ -333,10 +214,13 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
-    <option name="y" value="23" />
+    <option name="x" value="41" />
+    <option name="y" value="165" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -410,61 +294,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -484,6 +313,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -550,18 +382,18 @@
       <workItem from="1558957799167" duration="16450000" />
       <workItem from="1559070965786" duration="23000" />
       <workItem from="1559126486955" duration="491000" />
-      <workItem from="1559127130205" duration="245000" />
+      <workItem from="1559127130205" duration="10169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24830000" />
+    <option name="totallyTimeSpent" value="34754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="23" width="1280" height="721" extended-state="0" />
+    <frame x="41" y="165" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20355412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,7 +403,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55007946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38314787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39697543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,7 +417,7 @@
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24959612" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.024232633" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -596,40 +428,51 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20355412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38314787" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39697543" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32703215" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.024232633" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <option name="FILTER_TARGETS" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1209">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/BorrowSystem.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Time.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Inputhandler.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Values.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/BrugerDAO.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Borrow.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/GrayList.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/Repository/BrugerRepoo.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/CRUD.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/Interface/CRUD.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Dataslip" />
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Item.java" />
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/repository/ItemRepo.java" />
@@ -684,42 +527,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/CRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,13 +583,6 @@
         <state relative-caret-position="-1901" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/EksamesOpgave/demo/eksamensprojectDemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -790,8 +595,196 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Dataslip">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <folding>
+            <element signature="e#0#2346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Bruger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ItemRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="11" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BorrowList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

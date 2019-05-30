@@ -7,10 +7,11 @@ package model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 @Entity
 public class Bruger{
+
     @Id
     private int brugerId;
     private String navn;

@@ -15,6 +15,7 @@ import java.util.List;
 
 @Repository
 public class BrugerRepo{
+
     @Autowired
     JdbcTemplate template;
 
@@ -42,7 +43,7 @@ public class BrugerRepo{
     }
 
     public void deleteById(int brugerId){
-        String sql = " Delete from bruger WHERE id=?";
+        String sql = " Delete from bruger WHERE brugerId=?";
         template.update(sql, brugerId);
     }
 }
