@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Bruger` (
   `sms` INT(11) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
   `niveau` INT(11) NOT NULL,
-  `rykker` TIMESTAMP NULL DEFAULT NULL,
+  `rykker` INT(11) NULL DEFAULT NULL,
   `GrayList_grayListId` INT(11) NOT NULL,
   PRIMARY KEY (`brugerId`, `GrayList_grayListId`),
   INDEX `fk_Bruger_GrayList1_idx` (`GrayList_grayListId` ASC) VISIBLE,

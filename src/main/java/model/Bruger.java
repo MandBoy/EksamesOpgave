@@ -7,7 +7,6 @@ package model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.sql.Timestamp;
 
 @Entity
 public class Bruger{
@@ -19,10 +18,10 @@ public class Bruger{
     private int sms;
     private String email;
     private int niveau;
-    private Timestamp rykker;
+    private int rykker;
 
     public Bruger(){}
-    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, Timestamp rykker) {
+    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, int rykker) {
         this.brugerId = brugerId;
         this.navn = navn;
         this.cpr = cpr;
@@ -80,11 +79,11 @@ public class Bruger{
         this.niveau = niveau;
     }
 
-    public Timestamp getRykker() {
+    public int getRykker() {
         return rykker;
     }
 
-    public void setRykker(Timestamp rykker) {
+    public void setRykker(int rykker) {
         this.rykker = rykker;
     }
 }
