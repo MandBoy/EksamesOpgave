@@ -13,6 +13,10 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
 
+/**
+ * Repository class that handle our SQL querries
+ */
+
 @Repository
 public class ItemRepo {
 

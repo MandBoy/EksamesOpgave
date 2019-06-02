@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Bruger` (
   `email` VARCHAR(45) NOT NULL,
   `niveau` INT(11) NOT NULL,
   `rykker` INT(11) NULL DEFAULT NULL,
-  `GrayList_grayListId` INT(11) NULL,
-  PRIMARY KEY (`brugerId`),
+  `GrayList_grayListId` INT(11) NOT NULL,
+  PRIMARY KEY (`brugerId`, `GrayList_grayListId`),
   INDEX `fk_Bruger_GrayList1_idx` (`GrayList_grayListId` ASC) VISIBLE,
   CONSTRAINT `fk_Bruger_GrayList1`
     FOREIGN KEY (`GrayList_grayListId`)
@@ -63,9 +63,9 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`BorrowList` (
   `tidspunkt` TIMESTAMP NULL DEFAULT NULL,
   `Afleverer` DATETIME NULL DEFAULT NULL,
   `Bruger_brugerId` INT(11) NOT NULL,
-  PRIMARY KEY (`borrowListId`),
-  INDEX `fk_BorrowList_Bruger_idx` (`Bruger_brugerId` ASC) VISIBLE,
-  CONSTRAINT `fk_BorrowList_Bruger`
+  PRIMARY KEY (`borrowListId`, `Bruger_brugerId`),
+  INDEX `fk_BorrowList_Bruger1_idx` (`Bruger_brugerId` ASC) VISIBLE,
+  CONSTRAINT `fk_BorrowList_Bruger1`
     FOREIGN KEY (`Bruger_brugerId`)
     REFERENCES `BorrowDatabase`.`Bruger` (`brugerId`)
     ON DELETE NO ACTION
@@ -86,10 +86,10 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Item` (
   `vægt` VARCHAR(45) NOT NULL,
   `udgivelse` VARCHAR(45) NOT NULL,
   `Model` VARCHAR(45) NOT NULL,
-  `BorrowList_borrowListId` INT(11) NULL,
-  PRIMARY KEY (`itemId`),
-  INDEX `fk_Item_BorrowList1_idx` (`BorrowList_borrowListId` ASC) VISIBLE,
-  CONSTRAINT `fk_Item_BorrowList1`
+  `BorrowList_borrowListId` INT(11) NOT NULL,
+  PRIMARY KEY (`itemId`, `BorrowList_borrowListId`),
+  INDEX `fk_Item_BorrowList_idx` (`BorrowList_borrowListId` ASC) VISIBLE,
+  CONSTRAINT `fk_Item_BorrowList`
     FOREIGN KEY (`BorrowList_borrowListId`)
     REFERENCES `BorrowDatabase`.`BorrowList` (`borrowListId`)
     ON DELETE NO ACTION

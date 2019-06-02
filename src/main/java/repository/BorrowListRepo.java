@@ -10,6 +10,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Repository class that handle our SQL querries
+ */
+
+
 @Repository
 public class BorrowListRepo {
 

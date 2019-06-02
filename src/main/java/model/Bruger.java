@@ -8,6 +8,11 @@ package model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/**
+ * Class is based on the data structure in our database.
+ *
+ */
+
 @Entity
 public class Bruger{
 
@@ -19,9 +24,10 @@ public class Bruger{
     private String email;
     private int niveau;
     private int rykker;
+    private int GrayList_grayListId;
 
     public Bruger(){}
-    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, int rykker) {
+    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, int rykker, int GrayList_grayListId) {
         this.brugerId = brugerId;
         this.navn = navn;
         this.cpr = cpr;
@@ -86,4 +92,13 @@ public class Bruger{
     public void setRykker(int rykker) {
         this.rykker = rykker;
     }
+
+    public int getGrayList_grayListId() {
+        return GrayList_grayListId;
+    }
+
+    public void setGrayList_grayListId(int GrayList_grayListId) {
+        this.GrayList_grayListId = GrayList_grayListId;
+    }
+
 }
