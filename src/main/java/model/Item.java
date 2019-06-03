@@ -7,6 +7,11 @@ package model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/**
+ * Class is based on the data structure in our database.
+ *
+ */
+
 @Entity
 public class Item {
     @Id

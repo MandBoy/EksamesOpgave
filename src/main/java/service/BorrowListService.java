@@ -10,6 +10,9 @@ import java.util.List;
 @Service
 public class BorrowListService {
 
+    /**
+     *  Injection of dependencies by our repository
+     */
     @Autowired
     BorrowListRepo borrowlistRepo;
 

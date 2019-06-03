@@ -8,6 +8,9 @@ import java.util.List;
 @Service
 public class GrayListService {
 
+    /**
+     *  Injection of dependencies by our repository
+     */
     @Autowired
     GrayListService grayListService;
 

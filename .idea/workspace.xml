@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8468e9-8894-488a-bcd5-a571679b0e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/brugerdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB/BorrowDatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DB/BorrowDatabase.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BorrowList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/BorrowList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Bruger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Bruger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BrugerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BrugerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GrayListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/GrayListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/homeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BorrowList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BorrowList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Bruger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Bruger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/BrugerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/BrugerRepo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Eksamensprojekt/src/" />
     <ignored path="$PROJECT_DIR$/Eksamensprojekt/target/" />
@@ -17,83 +36,42 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="15" column="8" selection-start-line="15" selection-end-line="16" />
+            <state relative-caret-position="181">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/BorrowList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/GrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,10 +80,102 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowListService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/ItemRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/homeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/Borrow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,30 +184,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394">
+            <state>
               <folding>
                 <element signature="e#0#2285#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/Inputhandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Bruger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,8 +198,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,16 +238,22 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/eksamensproject/demo/eksamensprojectDemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/homeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/create.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/brugerdata.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/BorrowList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/GrayList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/GrayListService.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Bruger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/BorrowListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/BrugerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/GrayListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ItemService.java" />
       </list>
     </option>
   </component>
@@ -212,11 +267,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="y" value="29" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,12 +348,64 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="TheGallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="TheGallery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,12 +496,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36307000" />
+    <option name="totallyTimeSpent" value="43831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="13" y="29" width="1280" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20678514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20678514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,7 +512,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38314787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38193345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39697543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,8 +523,8 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32703215" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3296355" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.103011094" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.024232633" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,7 +532,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.024232633" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
@@ -472,14 +582,6 @@
     <option name="FILTER_TARGETS" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/repository/ItemRepo.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/ItemService.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/BrugerService.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/resources/create.html" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/resources/brugerdata.html" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/demo.iml" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Manage.java" />
-    <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/test/java/com/example/eksamensproject/demo/eksamensprojectDemoApplicationTests.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4560">
@@ -508,22 +610,6 @@
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/model/Item.java" />
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/controller/homeController.java" />
     <entry file="file://$PROJECT_DIR$/Eksamensprojekt/src/main/java/com/example/eksamensproject/demo/DemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Borrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/homeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -566,8 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/brugerdata.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/create.html" />
     <entry file="file://$PROJECT_DIR$/EksamesOpgave.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,20 +660,10 @@
         <state relative-caret-position="-1901" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/EksamesOpgave/demo/eksamensprojectDemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="384">
+          <caret line="27" column="21" selection-start-line="24" selection-start-column="25" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -612,36 +686,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Inputhandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/TheGallery/src/Website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="122">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheGallery/src/Connector.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Bruger 2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application 2.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Item 2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/homeController 2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo 2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Manage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/brugerdata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/EksamesOpgave/demo/eksamensprojectDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BorrowList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Bruger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/ItemRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="210">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Borrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,9 +903,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="181">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
@@ -669,112 +923,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowListService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="5" selection-start-line="11" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/BrugerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/GrayListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/GrayListRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/BorrowList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Bruger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BrugerRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="8" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/BorrowListRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/BorrowSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <folding>
-            <element signature="e#0#2285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Inputhandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>

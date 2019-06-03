@@ -10,8 +10,12 @@ import java.util.List;
 @Service
 public class BrugerService {
 
+    /**
+     *  Injection of dependencies by our repository
+     */
     @Autowired
     BrugerRepo brugerRepo;
+
     public List<Bruger> fetchAllBruger(){
         return brugerRepo.fetchAllBruger();
     }
