@@ -41,7 +41,7 @@ public class BrugerRepo{
     }
 
     public void updateBruger(Bruger bruger){
-        String sql ="Update bruger SET navn=?, cpr=?, sms=?, email=?, niveau=?, rykker=? WHERE brugerID=? ";
+        String sql ="Update bruger SET navn=?, cpr=?, sms=?, email=?, niveau=?, rykker=? WHERE brugerId=? ";
         template.update(sql, bruger.getId(), bruger.getNavn(), bruger.getCpr(),bruger.getEmail(), bruger.getNiveau(), bruger.getRykker());
     }
 
