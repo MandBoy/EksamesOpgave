@@ -1,7 +1,6 @@
 /*
 Lavet a Leopold.
  */
-
 package com.example.EksamesOpgave.demo;
 
 import org.springframework.boot.SpringApplication;

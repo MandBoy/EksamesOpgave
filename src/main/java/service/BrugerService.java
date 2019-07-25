@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class BrugerService {
-
     /**
      *  Injection of dependencies by our repository
      */
@@ -25,11 +24,9 @@ public class BrugerService {
     public void createBruger(Bruger bruger) {
         brugerRepo.createBruger(bruger);
     }
-
     public void readById(int brugerId){
         brugerRepo.readById(brugerId);
     }
-
     public void updateBruger(Bruger bruger){
         brugerRepo.updateBruger(bruger);
     }

@@ -19,7 +19,6 @@ import java.util.List;
 
 @Repository
 public class BrugerRepo{
-
     @Autowired
     JdbcTemplate template;
 

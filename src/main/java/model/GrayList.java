@@ -23,15 +23,12 @@ public class GrayList {
     public int getGrayListId() {
         return grayListId;
     }
-
     public void setGrayListId(int grayListId) {
         this.grayListId = grayListId;
     }
-
     public String getBruger() {
         return bruger;
     }
-
     public void setBruger(String bruger) {
         this.bruger = bruger;
     }

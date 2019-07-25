@@ -15,7 +15,6 @@ import java.util.List;
 
 @Repository
 public class GrayListRepo {
-
     @Autowired
     JdbcTemplate template;
 

@@ -1,6 +1,5 @@
 package repository;
 
-
 import model.BorrowList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -9,15 +8,12 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
 /**
  * Repository class that handle our SQL querries
  */
 
-
 @Repository
 public class BorrowListRepo {
-
     @Autowired
     JdbcTemplate template;
 

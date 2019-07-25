@@ -7,16 +7,15 @@
 * Switch contains user.level since we have more than one level of access to our system.
 * Borrow() is where we create our borrow orders from a persons Id.
 * Manage() is a reroad to several user friendly Databasehandler functions.
- */
+*/
 /*
 package service;
-
 public class BorrowSystem{
     public BorrowSystem(){
         System.out.println("--- Please scan your data slip ---");
+        User user = login();
         while(Values.running){
-            //Read from persons level with databasehandler into switch below.
-            User user = login();
+            //Read from persons level with Inputhandler into switch below.
             switch(user.level()){
                 case 1:
                     borrow(user);
@@ -37,24 +36,28 @@ public class BorrowSystem{
             }
         }
     }
+
     public User login(){
-        String username = Inputhandler.strChoice();
-        String password = Inputhandler.strChoice();
+        user = Inputhandler.userLogin();
         //Read from database.
-        if(userName && password in database){
-            System.out.println("Welcome: " + User.name);
+        if(user.name && user.cpr in database){
+            System.out.println("Welcome: " + user.name + " " + user.lastName);
             return user;
         }
         else{
-            System.out.println("Error: Login");
+            System.out.println("Error: Wrong Login");
+            break;
         }
     }
+
     public void borrow(User user){
         Borrow borrow = new Borrow(user);
     }
+
     public void manage(User user){
         Manage manage = new Manage(user);
     }
+
     public String optionMenu() {
         String tekst =
                         "---Option menu---\n"

@@ -15,7 +15,6 @@ import service.BrugerService;
 
 @Controller
 public class homeController {
-
     @Autowired
     BrugerService brugerService;
 
@@ -25,9 +24,7 @@ public class homeController {
 
         model.addAttribute("bruger", brugerService.fetchAllBruger());
         return "brugerdata";
-
     }
-
     @GetMapping("/create")
     public String create(){
         return "create";
@@ -37,9 +34,7 @@ public class homeController {
     public String createBruger(@ModelAttribute Bruger bruger){
         brugerService.createBruger(bruger);
         return "redirect:/brugerdata";
-
     }
-
 
 /*
     @GetMapping("/opdater/{brugerId}")
@@ -48,7 +43,6 @@ public class homeController {
         return "opdater";
 
     }
-
     @PostMapping("/opdater")
     public String
 */
