@@ -10,7 +10,6 @@ import javax.persistence.Id;
 
 @Entity
 public class GrayList {
-
     @Id
     private int grayListId;
     private String bruger;

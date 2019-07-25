@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Brugerdata</title>
 </head>
 
-
 <body>
-
-<h1>Oversigt over brugere</h1>
+<h1> Oversigt over brugere </h1>
 <p th:each="Bruger ${bruger}">
-
     <!-- link til update af bruger -->
-    <a style="color:green;" th:href="@{'/update/' + ${Bruger.brugerId}}">opdater</a>
+    <a style="color:green;" th:href="@{'/update/' + ${Bruger.brugerId}}"> opdater </a>
     <span th:text="${Bruger.navn}" />
     <span th:text="${Bruger.cpr}" />
     <span th:text="${Bruger.sms}" />
@@ -28,8 +23,7 @@
 </p>
 
 <!-- link til create ny person -->
-<a href="create.html">Opret ny Person</a>
-
+<a href="create.html"> Opret ny Person</a>
 </p>
 
 </body>

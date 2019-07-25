@@ -4,6 +4,7 @@ Lavet a Leopold
 package com.example.EksamesOpgave.demo.controller;
 
 import com.example.EksamesOpgave.demo.model.Bruger;
+import com.example.EksamesOpgave.demo.service.BrugerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -42,7 +43,4 @@ public class homeController {
     @PostMapping("/opdater")
     public String
     */
-
-
-
 }
