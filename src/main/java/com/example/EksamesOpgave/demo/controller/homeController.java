@@ -18,6 +18,11 @@ public class homeController {
     BrugerService brugerService;
 
     //route - vi bruger view model til at gå til og fra browser.
+    @GetMapping("")
+    public String frontPage(){
+        return "frontPage";
+    }
+
     @GetMapping("/brugerdata")
     public String brugerdata(Model model){
         model.addAttribute("bruger", brugerService.fetchAllBruger());
