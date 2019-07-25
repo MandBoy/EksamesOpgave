@@ -1,9 +1,9 @@
-package service;
+package com.example.EksamesOpgave.demo.service;
 
-import model.BorrowList;
+import com.example.EksamesOpgave.demo.model.BorrowList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.BorrowListRepo;
+import com.example.EksamesOpgave.demo.repository.BorrowListRepo;
 
 import java.util.List;
 

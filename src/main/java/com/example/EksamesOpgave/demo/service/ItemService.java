@@ -1,9 +1,9 @@
-package service;
+package com.example.EksamesOpgave.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ItemRepo;
-import model.Item;
+import com.example.EksamesOpgave.demo.repository.ItemRepo;
+import com.example.EksamesOpgave.demo.model.Item;
 
 import java.util.List;
 

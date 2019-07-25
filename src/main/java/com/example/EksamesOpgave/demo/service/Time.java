@@ -1,4 +1,4 @@
-package service;
+package com.example.EksamesOpgave.demo.service;
 import java.sql.Timestamp;
 import java.time.Instant;
 

@@ -2,9 +2,9 @@
 Lavet af Leopold.
  */
 
-package repository;
+package com.example.EksamesOpgave.demo.repository;
 
-import model.Bruger;
+import com.example.EksamesOpgave.demo.model.Bruger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.RowMapper;

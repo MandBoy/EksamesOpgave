@@ -1,9 +1,9 @@
-package service;
+package com.example.EksamesOpgave.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.BrugerRepo;
-import model.Bruger;
+import com.example.EksamesOpgave.demo.repository.BrugerRepo;
+import com.example.EksamesOpgave.demo.model.Bruger;
 
 import java.util.List;
 

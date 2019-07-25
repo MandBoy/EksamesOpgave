@@ -1,6 +1,6 @@
-package repository;
+package com.example.EksamesOpgave.demo.repository;
 
-import model.GrayList;
+import com.example.EksamesOpgave.demo.model.GrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

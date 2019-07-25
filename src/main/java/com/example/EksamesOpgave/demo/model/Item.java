@@ -3,7 +3,7 @@ Lavet af Andreas Lind
 Ændret af Leopold.
  */
 
-package model;
+package com.example.EksamesOpgave.demo.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
