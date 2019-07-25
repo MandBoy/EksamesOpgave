@@ -22,18 +22,16 @@ public class Bruger{
     private int sms;
     private String email;
     private int niveau;
-    private int rykker;
     private int grayList_grayListId;
 
     public Bruger(){}
-    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, int rykker, int grayList_grayListId) {
+    public Bruger(int brugerId, String navn, int cpr, int sms, String email, int niveau, int grayList_grayListId) {
         this.brugerId = brugerId;
         this.navn = navn;
         this.cpr = cpr;
         this.sms = sms;
         this.email = email;
         this.niveau = niveau;
-        this.rykker = rykker;
     }
 
     public int getId() {
@@ -71,12 +69,6 @@ public class Bruger{
     }
     public void setNiveau(int niveau) {
         this.niveau = niveau;
-    }
-    public int getRykker() {
-        return rykker;
-    }
-    public void setRykker(int rykker) {
-        this.rykker = rykker;
     }
     public int getGrayList_grayListId() {
         return grayList_grayListId;
