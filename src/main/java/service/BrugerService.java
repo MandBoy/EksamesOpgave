@@ -14,7 +14,6 @@ public class BrugerService {
      */
     @Autowired
     BrugerRepo brugerRepo;
-
     public List<Bruger> fetchAllBruger(){
         return brugerRepo.fetchAllBruger();
     }

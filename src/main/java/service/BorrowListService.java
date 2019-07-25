@@ -14,7 +14,6 @@ public class BorrowListService {
      */
     @Autowired
     BorrowListRepo borrowlistRepo;
-
     public List<BorrowList> fetchAllBorrowLists(){
         return borrowlistRepo.fetchAllBorrowLists();
     }

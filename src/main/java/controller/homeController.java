@@ -1,7 +1,6 @@
 /*
 Lavet a Leopold
  */
-
 package controller;
 
 import model.Bruger;
@@ -18,10 +17,9 @@ public class homeController {
     @Autowired
     BrugerService brugerService;
 
-    //route - vi bruger view model model til at få til og fra browser
+    //route - vi bruger view model til at gå til og fra browser.
     @GetMapping("/brugerdata")
     public String brugerdata(Model model){
-
         model.addAttribute("bruger", brugerService.fetchAllBruger());
         return "brugerdata";
     }
@@ -35,8 +33,7 @@ public class homeController {
         brugerService.createBruger(bruger);
         return "redirect:/brugerdata";
     }
-
-/*
+    /*
     @GetMapping("/opdater/{brugerId}")
     public String opdaterBruger(@PathVariable("brugerId") int brugerId, Model model){
         model.addAttribute("bruger", brugerService.readById(brugerId));
@@ -45,8 +42,7 @@ public class homeController {
     }
     @PostMapping("/opdater")
     public String
-*/
-
+    */
 
 
 

@@ -12,7 +12,6 @@ import java.sql.Timestamp;
 
 @Entity
 public class BorrowList {
-
     @Id
     private int borrowListId;
     private int bruger;

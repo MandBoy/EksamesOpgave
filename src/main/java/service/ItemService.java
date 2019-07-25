@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class ItemService {
-
     /**
      *  Injection of dependencies by our repository
      */

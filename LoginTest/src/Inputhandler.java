@@ -2,11 +2,11 @@
  *Made by Andreas Lind.
  * Used to take input saving us from creating a scanner in every class.
  */
-package service;
-import java.util.*;
 
-public class Inputhandler{
-    public static Scanner scanner = new Scanner(java.lang.System.in);
+import java.util.Scanner;
+
+public class Inputhandler {
+    public static Scanner scanner = new Scanner(System.in);
     public static String strChoice(){
         String str = scanner.next();
         return str;
