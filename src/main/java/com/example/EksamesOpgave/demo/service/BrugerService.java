@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.EksamesOpgave.demo.repository.BrugerRepo;
 
+
 import java.util.List;
 
 @Service

@@ -4,7 +4,6 @@ import com.example.EksamesOpgave.demo.model.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.EksamesOpgave.demo.repository.ItemRepo;
-
 import java.util.List;
 
 @Service
