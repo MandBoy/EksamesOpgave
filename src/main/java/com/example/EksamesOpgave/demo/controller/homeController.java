@@ -31,6 +31,16 @@ public class homeController {
         return "redirect:/login";
     }
 
+    @GetMapping("/actionPage")
+    public String actionPage(){
+        return "actionPage";
+    }
+
+    @PostMapping("/actionPage")
+    public String goActionPage(){
+        return "redirect:/actionPage";
+    }
+
     @GetMapping("/brugerdata")
     public String brugerdata(Model model){
         model.addAttribute("bruger", brugerService.fetchAllBruger());
