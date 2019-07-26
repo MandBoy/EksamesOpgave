@@ -21,6 +21,10 @@ public class homeController {
     public String frontPage(){
         return "frontPage";
     }
+    @PostMapping("")
+    public String goFrontPage(){
+        return "redirect:/frontpage";
+    }
 
     @GetMapping("/login")
     public String login(){
@@ -35,7 +39,6 @@ public class homeController {
     public String actionPage(){
         return "actionPage";
     }
-
     @PostMapping("/actionPage")
     public String goActionPage(){
         return "redirect:/actionPage";
@@ -56,6 +59,26 @@ public class homeController {
         brugerService.createBruger(bruger);
         return "redirect:/brugerdata";
     }
+
+    @GetMapping("/website")
+    public String website(){
+        return "website";
+    }
+    @PostMapping("/website")
+    public String goWebsite(){
+        return "redirect:/website";
+    }
+
+    @GetMapping("/borrow")
+    public String borrow(){
+        return "borrow";
+    }
+    @PostMapping("/borrow")
+    public String goBorrow(){
+        return "redirect:/borrow";
+    }
+
+
     /*
     @GetMapping("/opdater/{brugerId}")
     public String opdaterBruger(@PathVariable("brugerId") int brugerId, Model model){
