@@ -21,9 +21,9 @@ public class homeController {
     public String frontPage(){
         return "frontPage";
     }
-    @PostMapping("")
+    @PostMapping("/frontPage")
     public String goFrontPage(){
-        return "redirect:/frontpage";
+        return "redirect:/frontPage";
     }
 
     @GetMapping("/login")
@@ -77,7 +77,6 @@ public class homeController {
     public String goBorrow(){
         return "redirect:/borrow";
     }
-
 
     /*
     @GetMapping("/opdater/{brugerId}")
