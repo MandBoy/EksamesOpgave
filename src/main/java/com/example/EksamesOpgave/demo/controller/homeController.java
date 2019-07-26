@@ -2,7 +2,6 @@
 Lavet a Leopold
  */
 package com.example.EksamesOpgave.demo.controller;
-
 import com.example.EksamesOpgave.demo.model.Bruger;
 import com.example.EksamesOpgave.demo.service.BrugerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,17 +21,30 @@ public class homeController {
     public String frontPage(){
         return "frontPage";
     }
+    @PostMapping("")
+    public String goFrontPage(){
+        return "redirect:/frontPage";
+    }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+    @PostMapping("/login")
+    public String goLogin(){
+        return "redirect:/login";
+    }
 
     @GetMapping("/brugerdata")
     public String brugerdata(Model model){
         model.addAttribute("bruger", brugerService.fetchAllBruger());
         return "brugerdata";
     }
+
     @GetMapping("/create")
     public String create(){
         return "create";
     }
-
     @PostMapping("/create")
     public String createBruger(@ModelAttribute Bruger bruger){
         brugerService.createBruger(bruger);
