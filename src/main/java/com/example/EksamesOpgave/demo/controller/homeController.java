@@ -21,8 +21,17 @@ public class homeController {
     public String frontPage(){
         return "frontPage";
     }
-    @PostMapping("/frontPage")
+    @PostMapping("")
     public String goFrontPage(){
+        return "redirect:/frontPage";
+    }
+
+    @GetMapping("/frontPage")
+    public String getFrontPage(){
+        return "frontPage";
+    }
+    @PostMapping("/frontPage")
+    public String goFront(){
         return "redirect:/frontPage";
     }
 
