@@ -25,7 +25,7 @@ public class ItemService {
     public void updateItem(Item item){
         itemRepo.updateItem(item);
     }
-    public void readById(int itemId){
-        itemRepo.readById(itemId);
+    public Item readById(int itemId){
+        return itemRepo.readById(itemId);
     }
 }

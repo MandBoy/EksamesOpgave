@@ -28,10 +28,10 @@ public class ItemRepo {
         return template.query(sql, rowMapper);
     }
 
-    public void readById(int itemId){
+    public Item readById(int itemId){
         String sql = "SELECT * FROM bruger WHERE itemId=?";
         RowMapper<Item> rowMapper = new BeanPropertyRowMapper<>(Item.class);
-        template.queryForObject(sql, rowMapper, itemId);
+       return template.queryForObject(sql, rowMapper, itemId);
     }
 
     public void createItem(Item item){

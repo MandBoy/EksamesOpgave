@@ -23,8 +23,8 @@ public class BrugerService {
     public void createBruger(Bruger bruger) {
         brugerRepo.createBruger(bruger);
     }
-    public void readById(int brugerId){
-        brugerRepo.readById(brugerId);
+    public Bruger readById(int brugerId){
+        return brugerRepo.readById(brugerId);
     }
     public void updateBruger(Bruger bruger){
         brugerRepo.updateBruger(bruger);
