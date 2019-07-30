@@ -35,18 +35,17 @@ public class BrugerRepo{
     }
 
     public void createBruger(Bruger bruger){
-        String sql = "insert into Bruger (navn, cpr, sms, email, niveau, ) values(?, ?, ?, ?, ?, ? )";
-        RowMapper<Bruger> rowMapper = new BeanPropertyRowMapper<>(Bruger.class);
-        template.update(sql, rowMapper, bruger.getNavn(), bruger.getCpr(),bruger.getEmail(), bruger.getNiveau());
+        String sql = "INSERT INTO bruger (brugerId, navn, cpr, sms, email, niveau) VALUES (?, ?, ?, ?, ?, ?)";
+        template.update(sql, bruger.getId(), bruger.getNavn(), bruger.getCpr(),bruger.getSms(),bruger.getEmail(), bruger.getNiveau());
     }
 
     public void updateBruger(Bruger bruger){
-        String sql ="Update bruger SET navn=?, cpr=?, sms=?, email=?, niveau=? WHERE brugerId=? ";
+        String sql ="UPDATE bruger SET navn=?, cpr=?, sms=?, email=?, niveau=? WHERE brugerId=? ";
         template.update(sql, bruger.getId(), bruger.getNavn(), bruger.getCpr(),bruger.getEmail(), bruger.getNiveau());
     }
 
     public void deleteById(int brugerId){
-        String sql = " Delete from bruger WHERE brugerId=?";
+        String sql = " DELETE FROM bruger WHERE brugerId=?";
         template.update(sql, brugerId);
     }
 }

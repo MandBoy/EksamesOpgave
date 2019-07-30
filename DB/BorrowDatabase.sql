@@ -14,44 +14,9 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema BorrowDatabase
 -- -----------------------------------------------------
+DROP DATABASE IF EXISTS BorrowDatabase;
 CREATE SCHEMA IF NOT EXISTS `BorrowDatabase` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
 USE `BorrowDatabase` ;
-
--- -----------------------------------------------------
--- Table `BorrowDatabase`.`GrayList`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`GrayList` (
-  `grayListId` INT(11) NOT NULL,
-  `bruger` VARCHAR(45) NULL DEFAULT NULL,
-  PRIMARY KEY (`grayListId`))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
-
-
--- -----------------------------------------------------
--- Table `BorrowDatabase`.`Bruger`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Bruger` (
-  `brugerId` INT(11) NOT NULL AUTO_INCREMENT,
-  `navn` VARCHAR(45) NOT NULL,
-  `cpr` INT(11) NOT NULL,
-  `sms` INT(11) NOT NULL,
-  `email` VARCHAR(45) NOT NULL,
-  `niveau` INT(11) NOT NULL,
-  `rykker` INT(11) NULL DEFAULT NULL,
-  `GrayList_grayListId` INT(11) NULL,
-  PRIMARY KEY (`brugerId`),
-  INDEX `fk_Bruger_GrayList1_idx` (`GrayList_grayListId` ASC) VISIBLE,
-  CONSTRAINT `fk_Bruger_GrayList1`
-    FOREIGN KEY (`GrayList_grayListId`)
-    REFERENCES `BorrowDatabase`.`GrayList` (`grayListId`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
-
 
 -- -----------------------------------------------------
 -- Table `BorrowDatabase`.`BorrowList`
@@ -67,9 +32,35 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`BorrowList` (
   INDEX `fk_BorrowList_Bruger_idx` (`Bruger_brugerId` ASC) VISIBLE,
   CONSTRAINT `fk_BorrowList_Bruger`
     FOREIGN KEY (`Bruger_brugerId`)
-    REFERENCES `BorrowDatabase`.`Bruger` (`brugerId`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `BorrowDatabase`.`bruger` (`brugerId`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `BorrowDatabase`.`Bruger`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Bruger` (
+  `brugerId` INT(11) NOT NULL AUTO_INCREMENT,
+  `navn` VARCHAR(45) NOT NULL,
+  `cpr` INT(11) NOT NULL,
+  `sms` INT(11) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `niveau` INT(11) NOT NULL,
+  PRIMARY KEY (`brugerId`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `BorrowDatabase`.`GrayList`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`GrayList` (
+  `grayListId` INT(11) NOT NULL,
+  `bruger` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`grayListId`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
@@ -86,14 +77,12 @@ CREATE TABLE IF NOT EXISTS `BorrowDatabase`.`Item` (
   `vægt` VARCHAR(45) NOT NULL,
   `udgivelse` VARCHAR(45) NOT NULL,
   `Model` VARCHAR(45) NOT NULL,
-  `BorrowList_borrowListId` INT(11) NULL,
+  `BorrowList_borrowListId` INT(11) NULL DEFAULT NULL,
   PRIMARY KEY (`itemId`),
   INDEX `fk_Item_BorrowList1_idx` (`BorrowList_borrowListId` ASC) VISIBLE,
   CONSTRAINT `fk_Item_BorrowList1`
     FOREIGN KEY (`BorrowList_borrowListId`)
-    REFERENCES `BorrowDatabase`.`BorrowList` (`borrowListId`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `BorrowDatabase`.`borrowlist` (`borrowListId`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
