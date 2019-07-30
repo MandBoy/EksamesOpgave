@@ -15,6 +15,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Bruger{
+
     @Id
     private int brugerId;
     private String navn;

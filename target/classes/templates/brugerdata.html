@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Brugerdata</title>
 </head>
 
-<body>
+<p>
 <h1> Oversigt over brugere </h1>
+
 <p th:each="bruger : ${bruger}">
-    <!-- link til update af bruger -->
+
+
+
     <span th:text="${bruger.navn}" />
     <span th:text="${bruger.cpr}" />
     <span th:text="${bruger.sms}" />
     <span th:text="${bruger.email}" />
     <span th:text="${bruger.niveau}" />
+
+    <!-- link til update af bruger -->
+    <a style="color: green;" th:href="@{'/opdater/' + ${bruger.brugerId}}">opdater</a>
+
     <!-- rødt link til slet af bruger -->
+    <a style="color:red;" th:href="@{'/delete/' + ${bruger.brugerId}}">slet</a>
+
+
+
 </p>
+
+
 
 <!-- link til create ny person -->
 <form action="/create" method="get">

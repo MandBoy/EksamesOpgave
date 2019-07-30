@@ -3,6 +3,7 @@ package com.example.EksamesOpgave.demo.bcrypt;
  * Class: LoginFH
  * Når bruger logger ind tjekkes credentials.
  * **/
+/**
 import java.io.File;
 import static chessSystem.Configurations.recieveFileUserLogins;
 import static chessSystem.FileHandler.* ;
@@ -19,7 +20,7 @@ public class LoginFH {
      * @param password
      * @return Hvis brugeren verifies returneres rollen, ellers returneres en tom string.
      * **/
-
+/**
     public String verifyUserCredentials(String username, String password){
         this.userLogins = recieveFileUserLogins();
 
@@ -38,3 +39,4 @@ public class LoginFH {
     }
 }
 
+**/

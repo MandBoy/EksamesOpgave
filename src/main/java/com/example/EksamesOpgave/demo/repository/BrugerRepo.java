@@ -7,9 +7,9 @@ package com.example.EksamesOpgave.demo.repository;
 import com.example.EksamesOpgave.demo.model.Bruger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
-import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
 
@@ -41,7 +41,7 @@ public class BrugerRepo{
 
     public void updateBruger(Bruger bruger){
         String sql ="UPDATE bruger SET navn=?, cpr=?, sms=?, email=?, niveau=? WHERE brugerId=? ";
-        template.update(sql, bruger.getId(), bruger.getNavn(), bruger.getCpr(),bruger.getEmail(), bruger.getNiveau());
+        template.update(sql, bruger.getId(), bruger.getNavn(), bruger.getCpr(), bruger.getSms(), bruger.getEmail(), bruger.getNiveau());
     }
 
     public void deleteById(int brugerId){

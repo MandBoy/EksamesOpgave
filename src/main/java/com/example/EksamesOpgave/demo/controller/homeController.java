@@ -4,21 +4,17 @@ Lavet a Leopold
 package com.example.EksamesOpgave.demo.controller;
 import com.example.EksamesOpgave.demo.model.Bruger;
 import com.example.EksamesOpgave.demo.service.BrugerService;
-import com.example.EksamesOpgave.demo.service.MyImage;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Controller
 public class homeController {
-    private List<MyImage> images = new ArrayList<>();
+
     @Autowired
     BrugerService brugerService;
 
@@ -83,15 +79,26 @@ public class homeController {
         return "redirect:/borrow";
     }
 
-    /*
+
     @GetMapping("/opdater/{brugerId}")
     public String opdaterBruger(@PathVariable("brugerId") int brugerId, Model model){
         model.addAttribute("bruger", brugerService.readById(brugerId));
         return "opdater";
     }
+
+
     @PostMapping("/opdater")
-    public String opdate(){
-        return "opdate";
+    public String opdateringfærdig(@ModelAttribute Bruger bruger){
+        brugerService.updateBruger(bruger);
+        return "redirect:/createBruger"+bruger.getId();
     }
-    */
+
+    @GetMapping("/delete/{brugerId}")
+    public String delete(@PathVariable("brugerId") int brugerId){
+        brugerService.deleteById(brugerId);
+        return "redirect:/createBruger";
+    }
+
+
+
 }
