@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/website.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -105,6 +105,24 @@
                 <element signature="n#style#0;n#img#0;n#button#0;n#div#1;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#button#0;n#div#2;n#div#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/BCrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6092">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/LoginFH.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -126,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/java/repository/BrugerRepo.java" />
         <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/resources/create.html" />
         <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/resources/brugerdata.html" />
         <option value="$PROJECT_DIR$/Eksamensprojekt/src/main/java/service/Starter.java" />
@@ -177,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/description.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/controller/homeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/website.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/BCrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/LoginFH.java" />
       </list>
     </option>
   </component>
@@ -190,7 +208,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="943" />
     <option name="height" value="1087" />
@@ -235,6 +253,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EksamesOpgave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bcrypt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EksamesOpgave" type="b2602c69:ProjectViewProjectNode" />
@@ -308,7 +335,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564478248397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564478453359" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Uni/Ships/shipgame-master/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -324,17 +351,23 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Interface" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Repository" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.EksamesOpgave.demo.service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andreas Lind\Documents\GitHub\EksamesOpgave\src\main\resources\templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/TheGallery/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.EksamesOpgave.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreas Lind\Documents\GitHub\EksamesOpgave\src\main\java\com\example\EksamesOpgave\demo\bcrypt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.EksamesOpgave.demo.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Repository" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,18 +431,18 @@
       <workItem from="1564217708823" duration="2567000" />
       <workItem from="1564469055731" duration="4789000" />
       <workItem from="1564474194207" duration="706000" />
-      <workItem from="1564475147121" duration="3098000" />
+      <workItem from="1564475147121" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91795000" />
+    <option name="totallyTimeSpent" value="92079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10584344" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10584344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -419,7 +452,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3281412" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3852544" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3852544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39667705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,8 +522,6 @@
     <option name="FILTER_TARGETS" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/ChessClub-master/code/src/chessSystem/InputVerification.java" />
-    <entry file="file://$USER_HOME$/Desktop/ChessClub-master/code/src/chessSystem/LoginFH.java" />
     <entry file="file://$USER_HOME$/Desktop/ChessClub-master/code/src/chessSystem/Configurations.java" />
     <entry file="file://$USER_HOME$/Desktop/ChessClub-master/code/src/org/mindrot/jbcrypt/BCrypt.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Dataslip" />
@@ -798,6 +829,20 @@
             <element signature="n#style#0;n#img#0;n#button#0;n#div#1;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#button#0;n#div#2;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/BCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6092">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EksamesOpgave/demo/bcrypt/LoginFH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
