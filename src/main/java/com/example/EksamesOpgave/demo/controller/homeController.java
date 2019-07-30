@@ -4,6 +4,8 @@ Lavet a Leopold
 package com.example.EksamesOpgave.demo.controller;
 import com.example.EksamesOpgave.demo.model.Bruger;
 import com.example.EksamesOpgave.demo.service.BrugerService;
+import com.example.EksamesOpgave.demo.service.MyImage;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,8 +13,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class homeController {
+    private List<MyImage> images = new ArrayList<>();
     @Autowired
     BrugerService brugerService;
 
@@ -31,27 +37,17 @@ public class homeController {
         return "frontPage";
     }
     @PostMapping("/frontPage")
-    public String goFront(){
-        return "redirect:/frontPage";
-    }
+    public String goFront(){ return "redirect:/frontPage"; }
 
     @GetMapping("/login")
-    public String login(){
-        return "login";
-    }
+    public String login(){ return "login"; }
     @PostMapping("/login")
-    public String goLogin(){
-        return "redirect:/login";
-    }
+    public String goLogin(){ return "redirect:/login"; }
 
     @GetMapping("/actionPage")
-    public String actionPage(){
-        return "actionPage";
-    }
+    public String actionPage(){ return "actionPage"; }
     @PostMapping("/actionPage")
-    public String goActionPage(){
-        return "redirect:/actionPage";
-    }
+    public String goActionPage(){ return "redirect:/actionPage"; }
 
     @GetMapping("/brugerdata")
     public String brugerdata(Model model){
@@ -92,9 +88,10 @@ public class homeController {
     public String opdaterBruger(@PathVariable("brugerId") int brugerId, Model model){
         model.addAttribute("bruger", brugerService.readById(brugerId));
         return "opdater";
-
     }
     @PostMapping("/opdater")
-    public String
+    public String opdate(){
+        return "opdate";
+    }
     */
 }
